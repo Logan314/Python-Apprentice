@@ -44,7 +44,21 @@ age = simpledialog.askinteger("Your Age", "How old are you?")
 # and create a message
 
 # Show the message to the user
-
+if age == 14:
+    messagebox.showinfo("You are","Just like Me")
+elif 0 > age and age < 3:
+    messagebox.showinfo("Your age","You are a baby")
+elif 2 < age and age < 6:          
+    messagebox.showinfo("Your age","You are a toddler")
+elif 5 < age and age < 13:
+    messagebox.showinfo("Your age","You are a child")
+elif 12 < age and age < 20:
+    messagebox.showinfo("Your age","You are a teen")
+elif 19 < age and age < 65:
+    messagebox.showinfo("Your age","You are a adult")
+else: 
+    messagebox.showinfo("Your age","You are a dinosaur")
+if 
 
 
 window.mainloop()  # Keeps the window open
