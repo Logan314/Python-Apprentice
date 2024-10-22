@@ -22,4 +22,12 @@ at the comments and the code snippets in the previous lessons, like
 # Display the sum of the two numbers 
 
 # Keep the window open
+# This function adds two numbers
+def add(x, y):
+    return x + y
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+print(num1, "+", num2, "=", add(num1, num2))
+
 

@@ -21,11 +21,11 @@ for i in range(5):
 
 # RANDOM DECIMAL NUMBERS
     # random.uniform(start,end)
-    # Generates a random floating(decimal) number
+    # Generates a random floating(decimal) number`
     # start = lower bound of random number
     # end = upper bound of random number
 
-# Prints out 5 random decimal numbers between 1.2 and 34.5 (1.2 and 34.5 both included)
+# Prints out 5 random decimal numbers between 1.2 and 34.5 (1.2 and 34.5 bot`h included)
 for i in range(5):
     number = random.uniform(1.2, 34.5)
     print(number)
